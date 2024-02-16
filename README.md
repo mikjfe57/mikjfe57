@@ -47,14 +47,5 @@
 ```
 
 
-+ Added PavLocks to classrooms
-+ Added 10 second freeze time to people that run into locked pavs
-+ Added BCT team to enlisted raiding system
-```
-
-
-
-
-
 
 
