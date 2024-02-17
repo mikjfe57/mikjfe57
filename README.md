@@ -25,12 +25,12 @@
 
 
 --------------------------
-+ Added admin commands back 
++ added uniforms to the teleport mcx
++ warning the other mcx is no longer in use use the main one for now only use the other mcx for nametags
 + 
-+ 
-+ 
-+ 
-+ 
++ fixed teaming issue 
++ added a better obby
++ more changes coming soon
 + 
 
 * 
