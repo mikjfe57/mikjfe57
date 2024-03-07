@@ -33,8 +33,9 @@
 + more changes coming soon
 + 
 
-* 
-* 
+* Fixed issue with invsible parts at the mcx
+
+* temporarliy removed profile gui 
 * 
 * 
 * Fixed overhead gui 
