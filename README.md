@@ -67,4 +67,16 @@ end)
 
 
 
+local prompt = script.Parent
+local wood = prompt.Parent
+local top = wood.Parent:FindFirstChild("Top") 
+	local vector = Vector3.new(wood.Position.X, wood.Position.Y + 2, wood.Position.Z)
+	
+top:MoveTo (vector)
 
+	wait(1.5) 
+
+	top:Destroy()  
+
+	prompt.Enabled = false
+end)
