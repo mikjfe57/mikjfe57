@@ -1,3 +1,21 @@
+print("You opened a treasure chest!")
+local prompt = script.Parent
+local wood = prompt.Parent
+local top = wood.Parent:FindFirstChild("Top") -- Ensure this part is correct
+
+prompt.Triggered:Connect(function()
+    local vector = Vector3.new(wood.Position.X, wood.Position.Y + 2, wood.Position.Z)
+    top.Position = vector
+
+    -- Optional: Add a slight animation to make it look smooth
+    -- You can use TweenService for this if you want smooth motion
+
+    wait(1.5)  -- Wait for 1.5 seconds
+
+    top:Destroy()  -- Remove the top of the chest
+
+    prompt.Enabled = false
+end)
 
 
 
